@@ -1,0 +1,87 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: var(--grid-gap-3);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--animation-duration) var(--animation-function);
+  }
+
+  &:focus,
+  &:hover {
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--text-space);
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 84%;
+  opacity: 0.8;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: var(--title-space);
+  font-size: var(--title-size);
+  line-height: var(--title-height);
+  font-weight: var(--title-weight);
+  text-transform: var(--title-transform);
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: var(--subtitle-space);
+  font-size: var(--subtitle-size);
+  line-height: var(--subtitle-height);
+  font-weight: var(--subtitle-weight);
+  text-transform: var(--subtitle-transform);
+  font-family: monospace;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: var(--heading-space);
+  font-size: var(--heading-size);
+  line-height: var(--heading-height);
+  font-weight: var(--heading-weight);
+  text-transform: var(--heading-transform);
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: var(--subheading-space);
+  font-size: var(--subheading-size);
+  line-height: var(--subheading-height);
+  font-weight: var(--subheading-weight);
+  text-transform: var(--subheading-transform);
+}
