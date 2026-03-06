@@ -83,12 +83,13 @@ import IconScale from './components/icons/IconScale.vue'
 .grid {
   column-count: 1;
   column-gap: var(--grid-gap);
-  padding: var(--grid-gap);
+  padding: var(--grid-gap-1);
   margin: 0 auto;
   max-width: 1200px;
 
   @media (min-width: 1024px) {
     column-count: 2;
+    padding: var(--grid-gap);
   }
 }
 
