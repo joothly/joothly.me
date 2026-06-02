@@ -22,12 +22,11 @@ import IconScale from './components/icons/IconScale.vue'
     </HeaderBox>
 
     <InfoBox heading="Skills">
-      <TagListItem heading="Programming languages" :tags="['JavaScript', 'TypeScript', 'Java', 'Rust', 'Go']" />
-      <TagListItem heading="Frameworks" :tags="['Vue.js', 'Node.js', 'Angular', 'Spring Boot', 'JUnit']" />
+      <TagListItem heading="Programming languages" :tags="['JavaScript', 'TypeScript', 'Java', 'Rust', 'PHP', 'Go']" />
+      <TagListItem heading="Frameworks" :tags="['Vue.js', 'Node.js', 'Angular', 'Spring Boot', 'JUnit', 'Bootstrap']" />
       <TagListItem heading="Databases" :tags="['PostgreSQL', 'MongoDB', 'Redis', 'MySQL']" />
-      <TagListItem heading="DevOps" :tags="['Docker', 'Kubernetes', 'CI/CD', 'GitLab CI', 'Jenkins', 'Git']" />
-      <TagListItem heading="Soft skills"
-        :tags="['Teamwork', 'Problem Solving', 'Critical Thinking', 'Small wins, scaled', 'English', 'German']" />
+      <TagListItem heading="DevOps" :tags="['Git', 'Docker', 'Kubernetes', 'CI/CD', 'GitLab CI', 'Jenkins']" />
+      <TagListItem heading="Soft skills" :tags="['Teamwork', 'Problem Solving', 'Critical Thinking', 'Small wins, scaled', 'English', 'German']" />
     </InfoBox>
 
     <InfoBox heading="Education">
