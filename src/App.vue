@@ -40,8 +40,8 @@ import IconScale from './components/icons/IconScale.vue'
 
     <InfoBox heading="Work Experience">
       <TimelineItem date="2019" position="IoT Developer" company="CLOOS Schweißtechnik GmbH">
-        IoT platform and SDK development • Server, edge & cloud environments • CI/CD maintenance • Welding production
-        vizualization and monitoring • Java, TypeScript , Vue.js, Docker, Kubernetes, Yocto Linux
+        IoT platform and SDK development • Server, edge & cloud environments • CI/CD maintenance • I18n tooling • Welding production
+        vizualization and monitoring • Java, TypeScript, Vue.js, Docker, XLIFF, Kubernetes, Yocto Linux
       </TimelineItem>
       <TimelineItem date="2018" position="Web Development Intern" company="CLOOS Schweißtechnik GmbH">
         Bachelor thesis: OEE calculation • Production data visualization • Data aggregation strategy • Java, TypeScript
