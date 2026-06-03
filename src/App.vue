@@ -23,7 +23,7 @@ import IconScale from './components/icons/IconScale.vue'
 
     <InfoBox heading="Skills">
       <TagListItem heading="Programming languages" :tags="['JavaScript', 'TypeScript', 'Java', 'Rust', 'PHP', 'Go']" />
-      <TagListItem heading="Frameworks" :tags="['Vue.js', 'Node.js', 'Angular', 'Spring Boot', 'JUnit', 'Bootstrap']" />
+      <TagListItem heading="Frameworks" :tags="['Vue.js', 'Node.js', 'Spring Boot', 'JUnit', 'Bootstrap']" />
       <TagListItem heading="Databases" :tags="['PostgreSQL', 'MongoDB', 'Redis', 'MySQL']" />
       <TagListItem heading="DevOps" :tags="['Git', 'Docker', 'Kubernetes', 'CI/CD', 'GitLab CI', 'Jenkins']" />
       <TagListItem heading="Soft skills" :tags="['Teamwork', 'Problem Solving', 'Critical Thinking', 'Small wins, scaled', 'English', 'German']" />
@@ -40,20 +40,20 @@ import IconScale from './components/icons/IconScale.vue'
 
     <InfoBox heading="Work Experience">
       <TimelineItem date="2019" position="IoT Developer" company="CLOOS Schweißtechnik GmbH">
-        IoT platform and SDK development • Server, edge & cloud environments • CI/CD maintenance • I18n tooling • Welding production
-        vizualization and monitoring • Java, TypeScript, Vue.js, Docker, XLIFF, Kubernetes, Yocto Linux
+        IoT platform and SDK development fullstack • Server, edge & cloud environments • CI/CD maintenance • I18n tooling • Welding production
+        vizualization and monitoring • Java, TypeScript, Vue.js, CSS, Docker, XLIFF, Kubernetes, Yocto Linux
       </TimelineItem>
       <TimelineItem date="2018" position="Web Development Intern" company="CLOOS Schweißtechnik GmbH">
-        Bachelor thesis: OEE calculation • Production data visualization • Data aggregation strategy • Java, TypeScript
+        Bachelor thesis: OEE calculation • Production data visualization • Data aggregation strategy • Java, TypeScript, CSS
       </TimelineItem>
       <TimelineItem date="2017" position="Technical Director" company="Freelance">
-        Real-time photo platform for FMX 2018 • REST API • User login system • Go, Javascript
+        Real-time photo platform for FMX 2018 • REST API • User login system • Go, Javascript, CSS
       </TimelineItem>
       <TimelineItem date="2015" position="Web App Developer" company="werdewelt GmbH">
         Custom web applications for clients • Java, Spring Boot, Angular, Docker
       </TimelineItem>
       <TimelineItem date="2014" position="Web Developer" company="werdewelt GmbH">
-        Website design implementation • CI/CD pipeline maintenance • Typo3 & WordPress extensions • PHP, JavaScript
+        Website design implementation • CI/CD pipeline maintenance • Typo3 & WordPress extensions • PHP, TypoScript, JavaScript, CSS
       </TimelineItem>
     </InfoBox>
 
