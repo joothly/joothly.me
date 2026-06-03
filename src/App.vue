@@ -18,7 +18,7 @@ import IconScale from './components/icons/IconScale.vue'
         I thrive in team environments where I can contribute to a collective vision, mentor others, and build
         maintainable systems.
       </p>
-      <strong>Think we'd be a good fit?</strong> Hit me up at <a href="mailto:joothly@gmail.com">joothly@gmail.com</a>.
+      <strong>Think we'd be a good fit?</strong> Hit me up at <a href="mailto:mail@joothly.me">mail@joothly.me</a>.
     </HeaderBox>
 
     <InfoBox heading="Skills">
@@ -58,8 +58,8 @@ import IconScale from './components/icons/IconScale.vue'
     </InfoBox>
 
     <FooterBox class="full-width">
-      <a href="mailto:joothly@gmail.com">
-        <IconEmail /> joothly@gmail.com
+      <a href="mailto:mail@joothly.me">
+        <IconEmail /> mail@joothly.me
       </a>
       <a href="https://joothly.me">
         <IconGlobe /> joothly.me
@@ -71,7 +71,7 @@ import IconScale from './components/icons/IconScale.vue'
         <small>Angaben gemäß § 5 TMG</small>
         <div>
           Jonas Schneider • Sandweg 14a • 35745 Herborn • Deutschland <br>
-          joothly@gmail.com • https://joothly.me
+          mail@joothly.me • https://joothly.me
         </div>
       </template>
     </FooterBox>
