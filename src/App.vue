@@ -22,7 +22,7 @@ import IconScale from './components/icons/IconScale.vue'
     </HeaderBox>
 
     <InfoBox heading="Skills">
-      <TagListItem heading="Programming languages" :tags="['JavaScript', 'TypeScript', 'Java', 'Rust', 'PHP', 'Go']" />
+      <TagListItem heading="Programming languages" :tags="['JavaScript', 'TypeScript', 'Java', 'Rust', 'PHP', 'Go', 'CSS']" />
       <TagListItem heading="Frameworks" :tags="['Vue.js', 'Node.js', 'Spring Boot', 'JUnit', 'Bootstrap']" />
       <TagListItem heading="Databases" :tags="['PostgreSQL', 'MongoDB', 'Redis', 'MySQL']" />
       <TagListItem heading="DevOps" :tags="['Git', 'Docker', 'Kubernetes', 'CI/CD', 'GitLab CI', 'Jenkins']" />
